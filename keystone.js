@@ -13,7 +13,8 @@ var handlebars = require('express-handlebars');
 keystone.init({
 	'name': 'hnphack',
 	'brand': 'hnphack',
-
+	'cloudinary config': 'cloudinary://188863739894299:LtH16gmf3ajqbnfhBWE1YCySZtE@hnp/',
+	'cookie secret':'s%3Al3ozSdvQ83TtC5RvJ.CibaQoHtaY0H3QOB1kqR8H2A',
 	'less': 'public',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',
